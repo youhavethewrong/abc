@@ -1,0 +1,6 @@
+CPython Top Down Merge Sort
+    1.5 million numbers
+
+    real    1m36.294s
+    user    1m36.066s
+    sys     0m0.008s
