@@ -1,6 +1,17 @@
 CPython Top Down Merge Sort
     1.5 million numbers
+    real    1m2.408s
+    user    1m2.268s
+    sys     0m0.004s
 
-    real    1m36.294s
-    user    1m36.066s
-    sys     0m0.008s
+Jython Top Down Merge Sort
+    1.5 million numbers
+    real    0m25.837s
+    user    0m27.742s
+    sys     0m0.128s
+
+Groovy Top Down Merge Sort
+    1.5 million numbers
+    real    0m12.681s
+    user    0m14.085s
+    sys     0m0.240s

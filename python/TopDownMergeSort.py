@@ -34,4 +34,8 @@ class TopDownMergeSort:
 
 if __name__ == '__main__':
     tdms = TopDownMergeSort()
-    print tdms.sort([0, 9, 8, 7, 6, 5, 4, 3, 2, 1, 1337])
+    fh = open("../_data/longnums.dat", 'r')
+    bigList = fh.read().strip().split(',')
+    bigList = map(lambda x: int(x), bigList)
+    shortList = [0, 9, 8, 7, 6, 5, 4, 3, 2, 1, 1337]
+    print tdms.sort(bigList)

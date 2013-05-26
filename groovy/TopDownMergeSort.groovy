@@ -45,7 +45,11 @@ def msort(theList) {
 }
 
 def main() {
-    println msort([0, 9, 8, 7, 6, 5, 4, 3, 2, 1, 1337])
+    fh = new File("../_data/longnums.dat")
+    bigList = fh.getText().trim().split(",") 
+    bigList = bigList.collect { Integer.valueOf(it) }
+    shortList = [0, 9, 8, 7, 6, 5, 4, 3, 2, 1, 1337]
+    println msort(bigList)
 }
 
 main()
