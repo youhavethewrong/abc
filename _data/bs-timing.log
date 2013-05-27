@@ -1,0 +1,17 @@
+CPython Bubble Sort
+    1.5 million numbers
+    real    48m9.506s
+    user    48m3.016s
+    sys     0m0.076s
+
+Jython Bubble Sort
+    1.5 million numbers
+    real    63m3.164s
+    user    64m16.881s
+    sys     0m6.180s
+
+Groovy Bubble Sort
+    1.5 million numbers
+    real    0m12.681s
+    user    0m14.085s
+    sys     0m0.240s
